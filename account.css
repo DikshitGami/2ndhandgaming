@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  color: #525f7f;
+  background:#f1f1f1;
+  ;
+}
+
+hr {
+  overflow: visible;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.account-container {
+  width: 60vw;
+  left: 20vw;
+  top: 3vh;
+  border-radius: 10px;
+  height: 94vh;
+  background-color: #FFFFFF;
+  display: block;
+  justify-items: center;
+  position: absolute;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.account-header {
+  padding: 20px 20px;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-header h3 {
+  left: 0;
+}
+
+.account-header button {
+  background: #5f58c9;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  padding: 0 5px;
+}
+.account-header button:hover{
+background: #908DB8;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.input-box {
+  font-size: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  font-size: normal;
+  margin-left: 10px;
+}
+
+.input-box input {
+  margin: 10px 10px;
+  width: 25vw;
+  height: 35px;
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.user-info {
+  margin-bottom: 10px;
+  height: 10vh;
+}
+.main{
+  background:#ced4da;
+}
+.right {
+  float: right;
+  top: 0;
+}
+
+button a{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span {
+  padding: 50px 20px;
+}
+input[type=text]
+{
+  padding: 12px 20px;
+}
